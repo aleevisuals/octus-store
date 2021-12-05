@@ -1,0 +1,372 @@
+
+*{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Ubuntu,Helvetica Neue,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+body{
+    margin: 0;
+   
+  
+}
+
+#logo{
+    width: 220px;
+    height: 220px;
+    margin-top: -150px;
+    margin-left: 700px;
+    transition: all 0.3s ease;
+    transform:scale(1);
+}
+
+#logo:hover{
+    transform: scale(1.1);
+}
+
+#ALL_button ul{
+    list-style: none;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+}
+
+#bg{
+    background-image:linear-gradient(180deg, rgb(15, 15, 15),black);
+    height: 150px;
+    width: 100%;
+    padding-top: 5px;
+    border-bottom: #8100d1 9px solid;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#button1{
+    border: none;
+    background-color: #8100d1;
+    width: 150px;
+    height: 50px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+  #button1:hover{
+    background: #6d00b0;
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+#button2{
+    border: none;
+    background-color: #8100d1;
+    width: 150px;
+    height: 50px;
+    border: none;
+    display:flex;
+    justify-content: center;
+    margin-left: 900px;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+#button2:hover{
+    background: #6d00b0;
+    cursor:pointer;
+    transform: scale(1.05);
+}
+
+#buy{
+    position: absolute;
+    top: -33px;
+    left: 85%;
+    width: 220px;
+    height: 220px;
+}
+
+
+#button3{
+    border: none;
+    margin-left: 50px;
+    background-image: url(buyy.png);
+    background-color: #8100d1;
+    background-size: 120px 120px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+#button3:hover{
+    cursor:pointer;
+    background-color:#6d00b0;
+    transform: scale(1.1);
+}
+
+#button4{
+    border: none;
+    margin-left: 10px;
+    background-image: url(profile.png);
+    background-color: #8100d1;
+    background-size: 120px 120px;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 40px;
+    transition: all 0.3s ease;
+}
+
+#button4:hover{
+    background-color: #6d00b0;
+    cursor:pointer;
+    transform: scale(1.1);
+}
+
+#halloween{  
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+}        
+
+#slime{
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+}
+
+
+#ocstreet{
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+}
+
+
+#buttonH{
+    border: none;
+    background-color: #8100d1;
+    background-size: 120px 120px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: -30px;
+    border-radius: 40px;
+    color: white;
+}
+
+#buttonH:hover{ 
+    cursor: pointer;
+    background:#6d00b0
+    
+}
+
+#buttonS{
+    border: none;
+    background-color: #8100d1;
+    background-size: 120px 120px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: -30px;
+    border-radius: 40px;
+    color: white;
+}
+
+#buttonS:hover{
+    cursor: pointer;
+    background:#6d00b0
+}
+
+#buttonOC{
+    border: none;
+    background-color: #8100d1;
+    background-size: 120px 120px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    margin-top: -30px;
+    border-radius: 40px;
+    color: white;
+}
+
+#buttonOC:hover{
+    cursor: pointer;
+    background:#6d00b0
+}
+
+#HH{
+    font-family: arial;
+   
+    font-size:small;
+}
+
+#SS{
+    font-family: arial;
+    
+    font-size:small;
+}
+
+#OC{
+    font-family: arial;
+    
+    font-size:small;    
+}
+
+#alee_oc{
+    height: 220px;
+    width: auto;   
+    margin-top: -33px; 
+}
+
+#divis1{
+    background-image:linear-gradient(180deg, rgb(15, 15, 15),black);
+    height: 150px; 
+    width: 100%;
+    text-align: center;
+    border-top: #8100d1 9px solid;
+    border-bottom: #8100d1 9px solid;
+}
+
+
+#halloween-gall{
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+    transition: all 0.3s ease;
+}
+
+#halloween-gall:hover{
+    cursor:pointer;
+    border-color: #7800c2;
+    transform: scale(1.02);
+}
+
+#slime-gall{
+    margin-left: 40px;
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+    transition: all 0.3s ease;
+}
+
+#slime-gall:hover{
+    cursor:pointer;
+    border-color: #7800c2;
+    transform: scale(1.02);
+}
+
+#oc-gall{
+    margin-left: 40px;
+    width: 450px;
+    height: 450px;
+    border: 7px;
+    border-style:solid;
+    border-color: #8100d1;
+    transition: all 0.3s ease;
+}
+
+#oc-gall:hover{
+    cursor:pointer;
+    border-color: #7800c2;
+    transform: scale(1.02);
+}
+
+#CLOT{
+    display: flex;
+    justify-content: center;
+    margin: 130px;
+}
+
+#ALL_H{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+}
+
+#ALL_H:hover{
+    transform: scale(1.02);
+}
+
+#ALL_S{
+    text-align: center;
+    margin-left: 40px;
+    justify-content: center;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+}
+
+#ALL_S:hover{
+    transform: scale(1.02);
+}
+
+#ALL_OC{
+    margin-left: 40px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    transition: all 0.3s ease;
+}
+
+#ALL_OC:hover{
+    transform: scale(1.02);
+}
+
+#GALL{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+#divis_f{
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    border-top: #8100d1 9px solid;
+}
+
+#text{
+    margin-top: -1px;
+    font-size: 12px;
+    opacity: 20%;
+}
+
+#alee{
+    height: 50px;
+    width: auto; 
+    margin-top: 60px;
+    opacity: 20%;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: black;        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #8100d1;    
+    border-radius: 10px;       
+    border: 2px solid black;
